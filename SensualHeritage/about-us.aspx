@@ -6,9 +6,29 @@
 
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
-
-
-    <div >
+                <!-- breadcrumb-area start -->
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row breadcrumb_box  align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-center text-sm-left">
+                            <h2 class="breadcrumb-title">About Us</h2>
+                        </div>
+                        <div class="col-lg-6  col-md-6 col-sm-6">
+                            <!-- breadcrumb-list start -->
+                            <ul class="breadcrumb-list text-center text-sm-right">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active">About Us</li>
+                            </ul>
+                            <!-- breadcrumb-list end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb-area end -->
         <div class="site-wrapper-reveal border-bottom">
 
             <div class="about-us-pages-area">
@@ -319,28 +339,6 @@
         </div>
         <!--====================  End of footer area  ====================-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
 
     <!-- Modal -->
     <div class="product-modal-box modal fade" id="prodect-modal" tabindex="-1" role="dialog">

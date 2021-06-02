@@ -29,6 +29,17 @@
     <link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+
+        .header-area {
+          z-index: 2;
+          position: relative;
+        }
+        .breadcrumb-area {
+          z-index: 0;
+          position: relative;
+}
+    </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
         
@@ -58,7 +69,7 @@
                                 <ul class="justify-content-center">
                                     
                                     <li class="has-children">
-                                        <a href="#"><span>ABOUT US</span></a>
+                                        <a href="<%= Page.ResolveUrl("about-us.aspx") %>"><span>ABOUT US</span></a>
                                     </li>
                                     <li class="has-children">
                                         <a href="#"><span>NEW ARRIVALS</span></a>

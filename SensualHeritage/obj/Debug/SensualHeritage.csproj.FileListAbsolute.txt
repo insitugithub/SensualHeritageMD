@@ -235,4 +235,3 @@ F:\INSITU\T6-2021\SensualHeritage-git\trunk\SensualHeritage\obj\Debug\SensualHer
 F:\INSITU\T6-2021\SensualHeritage-git\trunk\SensualHeritage\obj\Debug\SensualHeritage.csproj.CopyComplete
 F:\INSITU\T6-2021\SensualHeritage-git\trunk\SensualHeritage\obj\Debug\SensualHeritage.dll
 F:\INSITU\T6-2021\SensualHeritage-git\trunk\SensualHeritage\obj\Debug\SensualHeritage.pdb
-F:\INSITU\T6-2021\SensualHeritage-git\trunk\SensualHeritage\obj\Debug\SensualHeritage.csprojAssemblyReference.cache
