@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -182,6 +183,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about-us.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -214,6 +216,10 @@
     <Content Include="assets\css\vendor\vendor.min.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\Linearicons.svg" />
+    <Content Include="blog-details.aspx" />
+    <Content Include="blog-list.aspx" />
+    <Content Include="cart.aspx" />
+    <Content Include="checkout.aspx" />
     <Content Include="Contact-Us.aspx" />
     <Content Include="HTML\about-us.html" />
     <Content Include="HTML\blog-grid.html" />
@@ -485,6 +491,8 @@
     <Content Include="fonts\Roboto-ThinItalic.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Index.aspx" />
+    <Content Include="product-details.aspx" />
+    <Content Include="product-list.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -534,6 +542,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="about-us.aspx.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about-us.aspx.designer.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -643,6 +658,34 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="blog-details.aspx.cs">
+      <DependentUpon>blog-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog-details.aspx.designer.cs">
+      <DependentUpon>blog-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blog-list.aspx.cs">
+      <DependentUpon>blog-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog-list.aspx.designer.cs">
+      <DependentUpon>blog-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact-Us.aspx.cs">
       <DependentUpon>Contact-Us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -668,6 +711,20 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="product-details.aspx.cs">
+      <DependentUpon>product-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-details.aspx.designer.cs">
+      <DependentUpon>product-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product-list.aspx.cs">
+      <DependentUpon>product-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-list.aspx.designer.cs">
+      <DependentUpon>product-list.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

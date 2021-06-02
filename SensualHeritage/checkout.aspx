@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="Contact-Us.aspx.cs" Inherits="SensualHeritage.Contact_Us" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="checkout.aspx.cs" Inherits="SensualHeritage.checkout" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

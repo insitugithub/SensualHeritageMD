@@ -1,11 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="Contact-Us.aspx.cs" Inherits="SensualHeritage.Contact_Us" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="about-us.aspx.cs" Inherits="SensualHeritage.about_us" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
-                <!--====================  header area ====================-->
+                                <!--====================  header area ====================-->
     <div class="header-area header-area--default">
 
         <!-- Header Bottom Wrap Start -->
@@ -18,6 +19,7 @@
                                 <input class="search-field" type="text" placeholder="Search Anything...">
                                 <button class="search-icon"><i class="icon-magnifier"></i></button>
                             </form>
+                                                       
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6">
@@ -66,4 +68,7 @@
     <!--====================  End of header area  ====================-->
             </div>
         </div>
+
 </asp:Content>
+
+

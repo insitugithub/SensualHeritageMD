@@ -1,11 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="Contact-Us.aspx.cs" Inherits="SensualHeritage.Contact_Us" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/FrontSite.Master" AutoEventWireup="true" CodeBehind="product-details.aspx.cs" Inherits="SensualHeritage.product_details" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
-                <!--====================  header area ====================-->
+    <!--====================  header area ====================-->
     <div class="header-area header-area--default">
 
         <!-- Header Bottom Wrap Start -->
